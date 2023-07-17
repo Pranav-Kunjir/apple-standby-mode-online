@@ -87,3 +87,18 @@ body{
 	padding: 1%;
 	}								
 }
+#fullscreen{
+	background-color: #B48EAD;
+	border-radius: 10px;
+	width: 50%;
+	font-family: 'Anton', sans-serif;
+	font-size: 128px;
+	color: #BF616A;
+	 text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(-50%);
+}

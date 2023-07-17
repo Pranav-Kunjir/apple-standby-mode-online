@@ -19,8 +19,18 @@ function update_time () {
 
 }
 update_time();
-
-
-
+var elem = document.getElementById("fullscreen")
+var body = window.document;
+var bodyel = body.documentElement;
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    bodyel.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    bodyel.requestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    bodyel.requestFullscreen();
+  }
+  elem.remove()
+}
 setInterval(update_time, 30000);
 
