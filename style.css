@@ -1,0 +1,89 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+body{
+	background-color: #2E3440;
+}
+.main{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 8%;
+}
+.container{
+	background-color: #434C5E;
+	border-radius: 10px;
+	height: 50vh;
+	width: 45%;
+	text-align: center;
+	display: flex;
+    margin: auto;
+    align-items:center;
+    justify-content:center;
+}
+.clock{
+	font-family: 'Anton', sans-serif;
+	font-size: 300px;
+	color: white;
+}
+.day-date{
+	font-family: 'Anton', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+#day{
+	font-size: 128px;
+	color: #BF616A;
+}
+.red-font{
+	color: #BF616A;
+}
+#date{
+	font-size: 64px;
+	color: white;
+}
+.quote{
+	font-family: 'Anton', sans-serif;
+	font-size: 32px;
+	color: #A3BE8C;
+	height: 20vh;
+	margin-top: 2%;
+	padding: 1%;
+}
+
+
+@media only screen and (max-width: 1400px) {
+	.clock{
+	font-family: 'Anton', sans-serif;
+	font-size: 128px;
+	color: white;
+	}
+	.day-date{
+		font-family: 'Anton', sans-serif;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	#day{
+		font-size: 64px;
+		color: #BF616A;
+	}
+	.red-font{
+		color: #BF616A;
+	}
+	#date{
+		font-size: 40px;
+		color: white;
+	}
+	.quote{
+	font-family: 'Anton', sans-serif;
+	font-size: 26px;
+	color: #A3BE8C;
+	height: 20vh;
+	margin-top: 2%;
+	padding: 1%;
+	}								
+}
