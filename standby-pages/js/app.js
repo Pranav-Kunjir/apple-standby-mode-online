@@ -1,3 +1,4 @@
+// Time Function gets the date / time / day / & Month also updates it
 function update_time () {
 	var today = new Date();
 	// var time = today.getHours() + ":" + today.getMinutes();
@@ -19,6 +20,8 @@ function update_time () {
 
 }
 update_time();
+
+// fullscreens the page the variable need to be better but it a problem for ltr
 var elem = document.getElementById("fullscreen")
 var body = window.document;
 var bodyel = body.documentElement;

@@ -1,0 +1,51 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+body{
+	background-color: #2E3440;
+	color: white;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 3vh;
+	background-color: #2E3440;
+}
+.navbar ul{
+	display: flex;
+	list-style: none;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	padding-left: 2vh;
+}
+.container{
+	max-width: 1300px;
+	margin: auto;
+}
+.showcase{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10%;
+	align-items: center;
+	text-align: right;
+	font-size: 22px;
+}
+.info{
+	padding: 2vh;
+	background-color: #4C566A;
+	border-radius: 25px;
+	color: #A3BE8C;
+}
+.showcase img{
+	width: 80vh;
+	background-color: #4C566A;
+	padding: 5vh;
+	border-radius: 25px;
+}
