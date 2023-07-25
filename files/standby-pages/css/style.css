@@ -48,7 +48,7 @@ body{
 .quote{
 	font-family: 'Anton', sans-serif;
 	font-size: 32px;
-	color: #A3BE8C;
+	color: #A3BE8C;	
 	height: 20vh;
 	margin-top: 2%;
 	padding: 1%;
@@ -68,8 +68,11 @@ body{
     margin: auto;
     transform: translateY(-50%);
 }
-
+/*hi why is this not working?*/
 @media only screen and (max-width: 1400px) {
+	.navbar{
+		font-size: 15px;
+	}
 	.clock{
 	font-family: 'Anton', sans-serif;
 	font-size: 128px;
